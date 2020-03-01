@@ -1,0 +1,5 @@
+{
+  "name": "aries-rails-docker-db",
+  "private": true,
+  "dependencies": {}
+}
