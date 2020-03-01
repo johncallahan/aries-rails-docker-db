@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Did:</strong>
+  <%= @identifier.did %>
+</p>
+
+<p>
+  <strong>Verkey:</strong>
+  <%= @identifier.verkey %>
+</p>
+
+<%= link_to 'Edit', edit_identifier_path(@identifier) %> |
+<%= link_to 'Back', identifiers_path %>
