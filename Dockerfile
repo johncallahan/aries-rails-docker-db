@@ -36,7 +36,8 @@ RUN apt-get update -y && apt-get install -y \
     libzmq3-dev \
     zip \
     unzip \
-    vim
+    vim \
+    libpq-dev
 
 # Install Nodejs 
 #RUN curl -sL https://deb.nodesource.com/setup_8.x | bash - \
